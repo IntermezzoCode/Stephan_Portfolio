@@ -1,22 +1,40 @@
 .container1 {
   margin: 0 auto;
-  height: 50vh;
   width: 80%;
-  background-color: $green-grey;
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+  background-color: $green;
 }
 
 .container2 {
   margin: 0 auto;
   height: 50vh;
   width: 80%;
-  background-color: $green;
+  background-color: $green-grey;
 }
 
 .container3 {
   margin: 0 auto;
   width: 80%;
-  display: flex;
-  justify-content: space-between;
-  height: 30vh;
+  background-color: $green;
+  text-align: center;
+  h2, p {
+    color: white;
+    padding: 20px;
+  }
+}
+
+.container4 {
+  margin: 0 auto;
+  height: 50vh;
+  width: 80%;
+  background-color: $green-grey;
+}
+
+.container5 {
+  margin: 0 auto;
+  height: 50vh;
+  width: 80%;
   background-color: $green;
 }
