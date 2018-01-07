@@ -30,6 +30,11 @@
   height: 50vh;
   width: 80%;
   background-color: $green-grey;
+  text-align: center;
+  h2, p {
+    color: white;
+    padding: 20px;
+  }
 }
 
 .container5 {
