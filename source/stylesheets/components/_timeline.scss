@@ -4,6 +4,7 @@
   list-style: none;
   padding: 20px;
   position: relative;
+  margin-top: 60px;
 }
 .timeline:before {
   top: 40px;
@@ -38,13 +39,13 @@
   top: 18px;
   left: 50%;
   margin-left: -25px;
-  background-color: #7c7c7c;
+  background-color: white;
   border: 3px solid #ffffff;
   z-index: 100;
-  border-top-right-radius: 50%;
-  border-top-left-radius: 50%;
-  border-bottom-right-radius: 50%;
-  border-bottom-left-radius: 50%;
+  // border-top-right-radius: 50%;
+  // border-top-left-radius: 50%;
+  // border-bottom-right-radius: 50%;
+  // border-bottom-left-radius: 50%;
 }
 .timeline .timeline-item .timeline-badge i,
 .timeline .timeline-item .timeline-badge .fa,
@@ -117,7 +118,7 @@
 .timeline-horizontal {
   list-style: none;
   position: relative;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 40px 20px 20px;
   display: inline-block;
 }
 .timeline-horizontal:before {
