@@ -42,4 +42,7 @@
   height: 50vh;
   width: 80%;
   background-color: $green;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
