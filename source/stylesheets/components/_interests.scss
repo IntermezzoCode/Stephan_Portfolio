@@ -1,6 +1,9 @@
 .interest {
   text-align: center;
   padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   h4 {
     color: white;
     padding: 10px 0px;
