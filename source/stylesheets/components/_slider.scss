@@ -8,7 +8,7 @@ ul {
 }
 li {
     display: block;
-    float: left;
+    float: center;
     margin-right: 6px;
     cursor:pointer;
 }
@@ -16,4 +16,15 @@ img {
     display: block;
     height: auto;
     max-width: 100%;
+}
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
 }
