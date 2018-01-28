@@ -14,7 +14,7 @@ title: Le Wagon - Middleman
   <h2>Career Milestones</h2>
 
   <div class="row">
-    <div class="col-sm-3 col-sm-3 mcenter">
+    <div class="col-sm-3 col-sm-3 mcenter" data-toggle="modal" data-target="#modal-milestone">
         <div class="mback"><%= image_tag "othregensburg.png", width: "130", class: "milestone" %></div>
     </div>
     <div class="col-sm-3 col-sm-3 mcenter">
@@ -41,6 +41,7 @@ title: Le Wagon - Middleman
         <div class="mback"><%= image_tag "medici.png", width: "130", class: "milestone" %></div>
     </div>
   </div>
+  <p>Note: Click on the icons for detailed information</p>
 </div>
 
 <div class="container3">
@@ -167,6 +168,27 @@ title: Le Wagon - Middleman
     <div class="interest">
       <%= image_tag "rapper.png", width: "150" %>
       <h4>I listen to rap music and text lyrics myself</h4>
+    </div>
+  </div>
+</div>
+
+<div id="modal-milestone" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title">University of Applied Sciences Regensburg</h3>
+        <h5 class="modal-title">2011 - 2015</h5>
+      </div>
+      <div class="modal-body">
+        <p>Degree: Bachelor of Arts in European Business (GPA: 1.3 = Top 5%)</p>
+        <p>Special Achievements: Double Degree from Oxford Brookes University (First Honors Degree)</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
     </div>
   </div>
 </div>

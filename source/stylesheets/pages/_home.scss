@@ -3,19 +3,22 @@
   width: 80%;
   display: flex;
   justify-content: space-between;
-  height: 40vh;
   background-color: $green;
 }
 
 .container2 {
   margin: 0 auto;
-  height: 50vh;
   width: 80%;
   background-color: $green;
-  text-align: center;
   h2 {
+    text-align: center;
     color: white;
     padding: 20px;
+  }
+  p {
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: white;
   }
 }
 
