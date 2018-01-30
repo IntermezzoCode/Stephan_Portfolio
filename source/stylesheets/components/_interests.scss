@@ -12,6 +12,12 @@
 
 #interest-box {
   display: flex;
-  align-items: center;
   justify-content: space-around;
+}
+
+.interest-frame {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 30px;
+  background-color: white;
 }
