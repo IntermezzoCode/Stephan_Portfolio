@@ -9,28 +9,31 @@
 .container2 {
   margin: 0 auto;
   width: 80%;
-  background-color: $green;
+  background-color: $red;
   h2 {
     text-align: center;
     color: white;
     padding: 20px;
+    margin-top: 0;
   }
   p {
     padding-bottom: 20px;
     padding-left: 10px;
     color: white;
+    margin-bottom: 0;
   }
 }
 
 .container3 {
   margin: 0 auto;
   width: 80%;
-  background-color: $green-grey;
-  margin-top: 15px;
+  background-color: $red;
+  margin-top: 50px;
   h2 {
     text-align: center;
     color: white;
     padding: 20px;
+    margin-top: 0;
   }
   p {
     color: white;
@@ -38,34 +41,37 @@
     padding-right: 70px;
     padding-top: 40px;
     padding-bottom: 30px;
+    margin-bottom: 0;
   }
 }
 
 .container4 {
   margin: 0 auto;
   width: 80%;
-  background-color: $green;
+  background-color: $red;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 15px;
+  margin-top: 50px;
   h2, p {
     color: white;
     background-color: $red;
     padding: 20px;
     margin: 0px;
+    margin-top: 0;
   }
 }
 
 .container5 {
   margin: 0 auto;
   width: 80%;
-  background-color: $green-grey;
+  background-color: $red;
   text-align: center;
-  margin-top: 15px;
+  margin-top: 50px;
   h2, p {
     color: white;
     padding: 20px;
+    margin-top: 0;
   }
 }
 
