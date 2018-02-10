@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: #ddd;
 }
 
 .container1 {
@@ -35,6 +35,7 @@ body {
     padding-top: 40px;
     padding-bottom: 30px;
     margin-bottom: 0;
+    background-color: $dark-green;
   }
 }
 
@@ -63,7 +64,7 @@ body {
 
 .titles {
     color: white;
-    background-color: $red;
+    background-color: $dark-green;
     padding: 30px;
     margin: 0px;
     margin-top: 0;
