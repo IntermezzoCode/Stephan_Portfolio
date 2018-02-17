@@ -1,5 +1,5 @@
 body {
-  background-color: #ddd;
+  background-color: #3e3a3a;
 }
 
 .container1 {
@@ -14,7 +14,7 @@ body {
 .container2 {
   margin: 0 auto;
   width: 80%;
-  background-color: $red;
+  background-color: $brown;
   p {
     padding-bottom: 20px;
     padding-left: 10px;
@@ -26,8 +26,7 @@ body {
 .container3 {
   margin: 0 auto;
   width: 80%;
-  background-color: $red;
-  margin-top: 50px;
+  background-color: $brown;
   p {
     color: white;
     padding-left: 70px;
@@ -35,26 +34,24 @@ body {
     padding-top: 40px;
     padding-bottom: 30px;
     margin-bottom: 0;
-    background-color: $dark-green;
+    background-color: $brown;
   }
 }
 
 .container4 {
   margin: 0 auto;
   width: 80%;
-  background-color: $red;
+  background-color: $brown;
   text-align: center;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
 }
 
 .container5 {
   margin: 0 auto;
   width: 80%;
-  background-color: $red;
+  background-color: $brown;
   text-align: center;
-  margin-top: 50px;
   p {
     color: white;
     padding: 20px;
@@ -64,13 +61,13 @@ body {
 
 .titles {
     color: white;
-    background-color: $dark-green;
+    background-color: $gray;
     padding: 30px;
     margin: 0px;
-    margin-top: 0;
+    margin-top: 20px;
     text-align: center;
     box-shadow: 0px 1px 0px white;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 30px;
   }
 
