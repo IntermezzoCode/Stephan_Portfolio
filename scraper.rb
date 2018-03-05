@@ -9,20 +9,21 @@ def scraper
   attributes = {}
 
   doc = Nokogiri::HTML(open(url))
-  doc.css('.card h1').each do |element|
-    p element.text.strip
-    p element.attribute('data-href')
-  end
+
+  # doc.css('.card h1').each do |element|
+  #   p element.text.strip
+  #   p element.attribute('data-href').value
+  # end
 
  #  doc.css('.card').each do |element|
  #    # p element.text.strip
  #    p element.attribute('data-href').value
  #  end
 
- # doc.css('.fa-facebook-square:parent').each do |element|
- #    p element
- #    # p element.attribute('data-href').value
- #  end
+ doc.css('.fa-facebook-square:parent').each do |element|
+    p element
+    p element.attribute('data-href').value
+  end
 
 
 
