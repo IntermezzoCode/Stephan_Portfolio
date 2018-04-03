@@ -4,28 +4,33 @@ require "csv"
 
 def scraper
 
-  url = "https://berlin.startups-list.com/"
-  companies = []
-  attributes = {}
+ #  url = "https://berlin.startups-list.com/"
+ #  companies = []
+ #  attributes = {}
 
-  doc = Nokogiri::HTML(open(url))
+ #  doc = Nokogiri::HTML(open(url))
 
-  # doc.css('.card h1').each do |element|
-  #   p element.text.strip
-  #   p element.attribute('data-href').value
-  # end
+ #  # doc.css('.card h1').each do |element|
+ #  #   p element.text.strip
+ #  #   p element.attribute('data-href').value
+ #  # end
 
- #  doc.css('.card').each do |element|
- #    # p element.text.strip
+ # #  doc.css('.card').each do |element|
+ # #    # p element.text.strip
+ # #    p element.attribute('data-href').value
+ # #  end
+
+ # doc.css('.fa-facebook-square:parent').each do |element|
+ #    p element
  #    p element.attribute('data-href').value
  #  end
 
- doc.css('.fa-facebook-square:parent').each do |element|
-    p element
-    p element.attribute('data-href').value
+  url = "https://www.listico.io/"
+  doc = Nokogiri::HTML(open(url))
+  doc.css('.media-content p').each do |element|
+    p element.text.strip
+
   end
-
-
 
 end
 
